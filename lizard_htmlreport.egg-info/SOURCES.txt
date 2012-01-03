@@ -1,0 +1,15 @@
+setup.cfg
+setup.py
+lizard_htmlreport/__init__.py
+lizard_htmlreport/models.py
+lizard_htmlreport/tests.py
+lizard_htmlreport/testsettings.py
+lizard_htmlreport/urls.py
+lizard_htmlreport/views.py
+lizard_htmlreport.egg-info/PKG-INFO
+lizard_htmlreport.egg-info/SOURCES.txt
+lizard_htmlreport.egg-info/dependency_links.txt
+lizard_htmlreport.egg-info/entry_points.txt
+lizard_htmlreport.egg-info/not-zip-safe
+lizard_htmlreport.egg-info/requires.txt
+lizard_htmlreport.egg-info/top_level.txt
