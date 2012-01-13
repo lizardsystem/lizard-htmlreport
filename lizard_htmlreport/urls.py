@@ -4,12 +4,18 @@ from django.conf.urls.defaults import *
 from django.contrib import admin
 from django.views.defaults import page_not_found, server_error
 
+from lizard_htmlreport.views import index
+from lizard_htmlreport.views import generate_rtf
+from lizard_htmlreport.views import generate_pdf
+
 
 admin.autodiscover()
 
 urlpatterns = patterns(
     '',
-    (r'^admin/', include(admin.site.urls)),
+    url(r'^$', index, name='htmlrapportage-index'),
+    url(r'^generate/rtf/$', generate_rtf, name='htmlrapportage-generate-rtf'),
+    url(r'^generate/pdf/$', generate_pdf, name='htmlrapportage-generate-pdf'),
     )
 
 
