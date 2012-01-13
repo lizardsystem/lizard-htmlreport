@@ -16,6 +16,8 @@ install_requires = [
     'lizard-ui',
     'django-nose',
     'pkginfo',
+    'clint',
+    'PyRTF',
     ],
 
 tests_require = [
